@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 365px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.h2 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media (min-width: 576px) {
+  .h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .h2 {
+    font-size: 37px;
+    line-height: 55px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1230px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+
+.btn {
+  color: #fff;
+  background-color: #2d72cd;
+  border: 0;
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #2d72cd;
+  background-color: #fff;
+}
+
+.btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.btn__header {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn__header {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px;
+  }
+}
+
+.btn-callback {
+  position: relative;
+  font-size: 8px;
+  color: #5284f7;
+  border: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-callback img {
+  width: 8px;
+  line-height: 9px;
+}
+
+@media screen and (min-width: 400px) {
+  .btn-callback {
+    font-size: 12px;
+  }
+  .btn-callback img {
+    width: 12px;
+    line-height: 13px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .btn-callback {
+    font-size: 16px;
+    border-bottom: 1px dashed #5284f7;
+  }
+  .btn-callback img {
+    width: 18px;
+    line-height: 19px;
+  }
+}
+
+body {
+  background-color: white;
+  position: relative;
+}
+
+.header {
+  padding: 2rem 0px 20px;
+}
+
+.header_logo {
+  margin-right: 10px;
+  max-width: 198px;
+  min-width: 125px;
+}
+
+.header_text {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .header_text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.header_contacts {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 576px) {
+  .header_contacts {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header_contacts {
+    font-size: 22px;
+  }
+}
+
+.border__bottom {
+  border-bottom: 1px solid #aeb6bb;
+}
+
+.main__padding {
+  padding: 1.5rem 0;
+}
+
+@media (min-width: 992px) {
+  .main__padding {
+    padding-top: 170px;
+    padding-bottom: 55px;
+  }
+}
+
+.main_text {
+  margin: 4px 0 8px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #213252;
+}
+
+@media (min-width: 768px) {
+  .main_text {
+    font-size: 22px;
+    line-height: 36px;
+    margin: 40px 0 72px;
+  }
+}
+
+.main .bg {
+  position: relative;
+  right: 10%;
+  z-index: -1;
+  width: 120%;
+}
+
+@media (min-width: 992px) {
+  .main .bg {
+    right: 25%;
+    width: 200%;
+  }
+}
+
+.personal {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background: #e28519;
+  border-radius: 14px;
+  padding: 6px;
+}
+
+.personal .btn_personal {
+  color: #fff;
+  background: #e28519;
+  border: 1px dashed #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.personal .btn_personal:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=main.css.map */
